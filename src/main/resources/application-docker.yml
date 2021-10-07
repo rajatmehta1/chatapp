@@ -1,0 +1,8 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql://host.docker.internal:3306/chat_db?useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
