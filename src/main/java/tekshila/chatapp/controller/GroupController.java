@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/v1")
 public class GroupController {
-
-    private GroupService groupService;
-
-    public
+//
+//    private GroupService groupService;
+//
+//    public
 
 }

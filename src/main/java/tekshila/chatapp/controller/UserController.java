@@ -21,8 +21,9 @@ public class UserController {
     @PostMapping(path = "/register",
                  consumes = MediaType.APPLICATION_JSON_VALUE,
                  produces = MediaType.APPLICATION_JSON_VALUE)
-    public UserDTO signUp(UserDTO userDTO) {
-       return userService.addUser(userDTO);
+    public @ResponseBody UserDTO signUp(@RequestBody UserDTO userDTO) {
+
+        return userService.addUser(userDTO);
     }
 
     @GetMapping(path = "/user/{userId}")

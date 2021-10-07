@@ -19,8 +19,8 @@ public class ChatappApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        userService.addUser(new UserDTO("mehrajat","GreenPython","admin"));
-        userService.addUser(new UserDTO("chacha_deepak","chachaji","admin"));
+//        userService.addUser(new UserDTO("mehrajat","GreenPython","admin"));
+//        userService.addUser(new UserDTO("chacha_deepak","chachaji","admin"));
     }
 
 }

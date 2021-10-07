@@ -1,9 +1,11 @@
 package tekshila.chatapp.dto;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import tekshila.chatapp.domain.User;
 
 @Data
+@NoArgsConstructor
 public class UserDTO {
     private Integer userId;
     private String userName;
