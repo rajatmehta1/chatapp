@@ -1,0 +1,9 @@
+docker image
+
+docker built -t chat-service .
+
+docker run -p8080:8080 ....
+
+docker rmi <image name> ===> remove image
+
+docker desktop stop the running container or running java process.
